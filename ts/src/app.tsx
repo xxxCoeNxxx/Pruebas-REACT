@@ -1,7 +1,9 @@
-/* import { GridMiembros } from "./grid-miembros"; */
-import { GridPersonajes } from "./grid-mortadelo";
+/* import { GridPersonajes } from "./grid-mortadelo"; */
+import { Rutas } from "./rutas";
 
 export const App = () => {
-  /* return <GridMiembros />; */
-  return <GridPersonajes />;
+   /* return <GridPersonajes />; */
+  return (
+    <Rutas />
+  );
 };

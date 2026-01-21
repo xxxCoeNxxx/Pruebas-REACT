@@ -1,10 +1,16 @@
 body {
  font-family: Sans-Serif;
 }
-.personajes-listado-container,
-.user-list-container  {
+.personajes-listado-container {
  display: grid;
  grid-template-columns: repeat(7, 1fr);
+ grid-template-rows: 20px;
+ grid-auto-rows: 80px;
+ gap: 10px 5px;
+}
+.user-list-container {
+ display: grid;
+ grid-template-columns: 80px 1fr 3fr;
  grid-template-rows: 20px;
  grid-auto-rows: 80px;
  gap: 10px 5px;
@@ -18,4 +24,15 @@ body {
 .personajes-listado-container > img,
 .user-list-container  > img {
  width: 80px;
+}
+
+.contenedor-detalle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-detalle img{
+  width: 200px;
+  border-radius: 10px;
 }
