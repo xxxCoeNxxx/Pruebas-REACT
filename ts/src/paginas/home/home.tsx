@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { rutas } from "../../constantes";
+import { rutas } from "@/constantes";
 
 export const Home: React.FC = () => {
   return (
