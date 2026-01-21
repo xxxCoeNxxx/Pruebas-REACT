@@ -13,12 +13,9 @@ import { obtenerPersonajes } from "./personaje.api";
     return (
       <div className="personajes-listado-container">
         <span className="header">Imagen</span>
-        <span className="header">Nombre</span>
         <span className="header">Id</span>
+        <span className="header">Nombre</span>
         <span className="header">Apodo</span>
-        <span className="header">Especialidad</span>
-        <span className="header">Habilidades</span>
-        <span className="header">Amigo</span>
 
         {personajes.map((personaje) => (
           <PersonajeFila key={personaje.id} personaje={personaje}/>
